@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+}
+.resultVid, .resultTitle, .resultDescription {
+  float: left;
+}
+.result {
+  clear: left;
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 4px;
+}
+.container1 {
+  border: 1px red solid;
+  background-color: red;
+  width: 35%;
+  margin: auto;
+  margin-top: 30px;
+}
+.js-search-form {
+  position: relative;
+  margin-top: 40px;
+}
+.container2 {
+  /*border: 1px solid black;*/
+  position: relative;
+  width: 35%;
+  height: 100px;
+  margin-top: 80px;
+  margin: auto;
+
+}
+.container3 {
+  position: relative;
+  margin: auto;
+  top: 10px;
+  height: 40px;
+  width: 90%;
+  /*border: 1px black solid;*/
+  font-size: 0;
+}
+
+.container4 {
+  position: relative;
+  margin: auto;
+  width: 28%;
+  /*border: 1px black solid;*/
+}
+
+button[type='submit'] {
+  /*display: inline-block;*/
+  position: absolute;
+  width: 37%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 15px;
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: .50px;
+}
+
+.submit:hover, .previous:hover, .next:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+input[type='text'] {
+  /*display: inline-block;*/
+  position: absolute;
+  border: 1px black solid;
+  top: 0;
+  left: 0;
+  width: 60%;
+  bottom: 0;
+  font-size: 25px;
+}
+.previous {
+ position: absolute;
+ width: 40%;
+ float: left;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ font-size: 15px;
+ font-family: 'Archivo Black', sans-serif;
+ letter-spacing: .50px;
+}
+.next {
+  position: absolute;
+  width: 40%;
+  float: right;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 15px;
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: .50px;
+}

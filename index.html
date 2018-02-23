@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+   <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <div class="container1">
+        <h1>Search YouTube</h1>
+      </div>
+      <div class="container2">
+        <form action="#" class="js-search-form">
+          <div class='container3'>
+            <label for="query"></label>
+            <button type="submit" class="submit">Search</button>
+            <input type="text" class="js-query">
+          </div>
+        </form>
+      </div>
+      <div class="resultNumbers"></div>
+      <br>
+      <div class="container4">
+        <button type="previous" class="previous" disabled>Previous</button>
+        <button type="next" class="next" disabled>Next</button><br><br>
+      </div>
+      <br><br>
+      <div class="js-search-results"></div>
+    </main>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
