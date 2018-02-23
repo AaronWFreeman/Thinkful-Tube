@@ -30,7 +30,7 @@ function renderResult(result) {
   return  `
   <div class="result">
     <div class="resultVid">
-      <a target="_blank" href="${youTubeUrl}"><img src="${result.snippet.thumbnails.medium.url}"></a></div>
+      <a target="_blank" href="${youTubeUrl}"><img src="${result.snippet.thumbnails.medium.url}" alt="${result.snippet.title} + ${result.snippet.description}"></a></div>
     <div class="titleDescription">
       <div class="returnTitle"><h2>${result.snippet.title}</h2></div>
       <div class="returnDescription">${result.snippet.description}</div>
